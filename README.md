@@ -115,3 +115,44 @@ models/random_forest_sepsis_model.pkl
 models/scaler.pkl
 results/model_comparison_results.csv
 results/feature_importance.csv
+
+
+---
+
+## Visual Results
+
+### Model Performance Comparison
+
+![Model Performance Comparison](results/model_performance_comparison.png)
+
+---
+
+### ROC Curve Comparison
+
+![ROC Curve Comparison](results/roc_curve_comparison.png)
+
+---
+
+### Confusion Matrices
+
+#### Logistic Regression
+
+![Confusion Matrix - Logistic Regression](results/confusion_matrix_Logistic_Regression.png)
+
+#### Random Forest
+
+![Confusion Matrix - Random Forest](results/confusion_matrix_Random_Forest.png)
+
+#### Support Vector Machine
+
+![Confusion Matrix - Support Vector Machine](results/confusion_matrix_Support_Vector_Machine.png)
+
+#### XGBoost
+
+![Confusion Matrix - XGBoost](results/confusion_matrix_XGBoost.png)
+
+---
+
+### Feature Importance
+
+![Feature Importance](results/feature_importance.png)
